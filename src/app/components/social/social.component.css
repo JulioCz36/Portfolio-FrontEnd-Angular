@@ -1,0 +1,18 @@
+img{
+    width: 48px;
+}
+#redes{
+    border-radius: 100%;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    transition: all .5s ease;
+    margin-right: 20px;
+}
+#redes:active {
+    transform: scale(.9);
+    transition: all 200ms ease;
+}
+#redes:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .5)
+}

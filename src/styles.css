@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-image: transparent;
+    border:1px solid #cdcdcd;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 0px 3px #ffffff00;
+    color: black;
+    min-height: 43px;
+    padding: 0 13px 0 13px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .5s ease;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#edit:active {
+    transform: scale(.9);
+    transition: all 100ms ease;
+}
+#edit:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+}
+#edit svg {
+    width: 26px;
+}
