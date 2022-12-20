@@ -1,6 +1,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: #e8e8e8;
+}
 #edit {
     display: flex;
     align-items: center;
@@ -29,4 +32,17 @@
 }
 #edit svg {
     width: 26px;
+}
+.card--title{
+    width: 250px;
+    justify-content: center;
+    height: 95px;
+    text-align: center;
+    background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+    color: #f8f8f8;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom:60px;
 }

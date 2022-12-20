@@ -13,6 +13,15 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { DeleteComponent } from './components/delete/delete.component';
 import { AddComponent } from './components/add/add.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { SkillsComponent } from './component/skills/skills.component';
+import { ProyectosComponent } from './component/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { SeparacionComponent } from './components/separacion/separacion.component';
+import { CartasSkillsComponent } from './components/cartas-skills/cartas-skills.component';
+import { CartasProyectosComponent } from './components/cartas-proyectos/cartas-proyectos.component';
+import { ModoOscuroComponent } from './components/modo-oscuro/modo-oscuro.component';
+import { CartaPerfilComponent } from './components/carta-perfil/carta-perfil.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +35,16 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     AcercaDeComponent,
     DeleteComponent,
     AddComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    EducacionComponent,
+    SkillsComponent,
+    ProyectosComponent,
+    FooterComponent,
+    SeparacionComponent,
+    CartasSkillsComponent,
+    CartasProyectosComponent,
+    ModoOscuroComponent,
+    CartaPerfilComponent
   ],
   imports: [
     BrowserModule,
